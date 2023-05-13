@@ -1,4 +1,10 @@
-# 집합에 원소 있는지 여부 파악
+# 집합에 원소 있는지 여부 파악 : in, not in
+# https://www.codingfactory.net/10043
+
+# 문자열에 문자 있는지 여부 파악 : in, not in
+# https://asecurity.dev/entry/Python-%ED%8A%B9%EC%A0%95-%EB%AC%B8%EC%9E%90%EC%97%B4str-%ED%8F%AC%ED%95%A8-%EC%9C%A0%EB%AC%B4contains-%ED%99%95%EC%9D%B8-%EB%B0%A9%EB%B2%95
+# find의 경우, 그 문자가 문자열에서 시작하는 문자열 인덱스를 반환. 없으면 -1 반환
+
 import sys
 
 S = set()
@@ -17,6 +23,7 @@ for i in range(M) :
 
     else :
         # split() -> list 를 리턴해줌
+        # https://blockdmask.tistory.com/469
         way, _num = map(str, input_str.split())
         num = int(_num)
     

@@ -1,3 +1,6 @@
+# count() 함수: 문자열과 리스트에 모두 적용가능하다!
+# 풀이 : https://blockdmask.tistory.com/410
+
 N = int(input())
 s = []
 l_arm = 0

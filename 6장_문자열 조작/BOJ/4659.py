@@ -1,4 +1,9 @@
 # 영어에서 모음 -> 원래 5개... -> 데이터 범위에 대해서 한번씩 꼭 생각해보기
+# index() vs find()
+# https://codechacha.com/ko/python-find-index-from-string/
+# index()를 쓰면 try catch 로 안 씌웠을 때, 없는 요소를 찾으려고 하면 ValueError 뜸.
+# 반면, find는 못 찾을 경우, -1을 반환한다.
+
 vowels = ['a', 'e', 'i', 'o', 'u']
 
 while True :

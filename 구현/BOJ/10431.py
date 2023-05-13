@@ -1,5 +1,14 @@
 # 삽입 정렬?
 # 총 몇번 뒤로 물러서게
+
+# remove()
+# https://ooyoung.tistory.com/49
+# array 안에서 삭제하고자 하는 값이 여러 개가 있다 하더라도 "첫 번째 값에 대해서만 삭제"한다.
+
+# insert()
+# https://ooyoung.tistory.com/117
+# arr.insert(i, x) -> 원하는 위치 i에 원하는 요소 x를 삽입하는 형태.
+
 import sys
 import collections
 

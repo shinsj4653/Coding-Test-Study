@@ -1,4 +1,6 @@
-N, game = input().split()
+# set() 자료형의 사이즈 : len() 함수 사용하면 된다
+
+N,game = input().split()
 N = int(N)
 
 players = set()

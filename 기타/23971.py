@@ -33,8 +33,14 @@ for i in range(1, h) :
         h_cnt += 1
 
 print(ans)
-    
 
+# 더 좋은 풀이
+# https://velog.io/@qwerty1434/%EB%B0%B1%EC%A4%80-23971%EB%B2%88-ZOAC-4
+# math.ceil() 함수와 "강의실 길이 / (띄어앉아야하는 칸 수 + 1) 을 올림하는 규칙성을 활용하여 문제를 풀었다.
+
+# 2차원 배열 생성
+# https://velog.io/@sjy5386/Python-2%EC%B0%A8%EC%9B%90-%EB%B0%B0%EC%97%B4-%EC%84%A0%EC%96%B8%ED%95%98%EA%B8%B0
+# '*' : 파이썬에서 얕은 복사. 깊은 복사를 위해서는 위의 코드처럼 선언해야한다.
 
 
 
