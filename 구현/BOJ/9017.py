@@ -15,17 +15,19 @@ for i in range(t) :
     team_counter = collections.Counter(team)
 
     f_counter = dict(team_counter)
-
+    five = defaultdict(int) # 5순위 사람의 점수
 
     s = 1
     for t in team :
+
         if team_counter[t] >= 6 :
-            score[t] += s
+            if f_counter[t] > 2:
+                score[t] += s
+            if f_counter[t] == 2 :
+                five[t] = s
+
             f_counter[t] -= 1
             s += 1
-            if f_counter[t] == 1:
-                f_counter[t] = s
-
 
 
     new_score = [k for k, v in score.items() if min(score.values()) == v]
@@ -36,8 +38,8 @@ for i in range(t) :
         ans = 1000
         key = 0
         for n in new_score :
-            if ans > f_counter[n] :
-                ans = f_counter[n]
+            if ans > five[n] :
+                ans = five[n]
                 key = n
 
         print(key)
