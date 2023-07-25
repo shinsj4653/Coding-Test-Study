@@ -1,6 +1,8 @@
 def sol() :
     # 문자열 : 조작 불가능
     # 새로운 변수 ans
+
+    # pr request test
     s = input()
     ans = []
     for idx, letter in enumerate(s) :
