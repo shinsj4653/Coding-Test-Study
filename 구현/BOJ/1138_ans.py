@@ -1,5 +1,7 @@
 # 분명 맞는 것 같은데..뭐가 문제지 내 풀이에서
-#https://suri78.tistory.com/205
+#https://suri78.tistory.com/205 -> 인터넷 풀이
+
+# https://zmade.tistory.com/50 -> 파이썬 전개 연산자
 n = int(input())
 h = list(map(int, input().split()))
 ans = [0] * n
