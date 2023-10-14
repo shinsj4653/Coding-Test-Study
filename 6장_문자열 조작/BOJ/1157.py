@@ -2,7 +2,6 @@
 # Counter, most_common
 # Counter : sys.stdin.readline() -> "\n" 도 포함됨
 
-
 # https://www.daleseo.com/python-collections-counter/
 # collections.Counter() 안에 문자열 넣으면, 각 문자가 문자열에서 몇 번씩 나타나는지 알려주는 객체가 반환된다.
 

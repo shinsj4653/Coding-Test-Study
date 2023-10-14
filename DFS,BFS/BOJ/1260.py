@@ -11,7 +11,6 @@ def dfs(graph, v, visited) :
 
     for node in graph[v] :
         if node not in visited :
-
             dfs(graph, node, visited)
 
 def bfs(graph, v) :
