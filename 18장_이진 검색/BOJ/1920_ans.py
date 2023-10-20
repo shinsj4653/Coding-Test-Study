@@ -11,5 +11,23 @@ n_list.sort()
 m = int(input())
 m_list = list(map(int, input().rstrip().split()))
 
-for num in m_list :
-    print(bisect.bisect_left(n_list, num))
+def binary_search(target) :
+    st = 0
+    en = n - 1
+
+    while st <= en :
+        mid = (st + en) // 2
+        if n_list[mid] < target :
+            st = mid + 1
+
+        elif n_list[mid] > target :
+            en = mid - 1
+
+        else :
+            return 1
+
+    return 0
+
+for m in m_list :
+    print(binary_search(m))
+
