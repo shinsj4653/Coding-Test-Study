@@ -1,6 +1,6 @@
 # 비트마스킹 활용 DP
 # 모든 경우의 다 해봐야 한다.
-
+# https://yabyab2.tistory.com/104
 import sys
 input = sys.stdin.readline
 
